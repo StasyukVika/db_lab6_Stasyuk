@@ -1,3 +1,4 @@
+-- При вставці нового рядка в таблицю Happening записує стан 'decreased' у верхньому регістрі
 CREATE OR REPLACE FUNCTION decreased_func()
 RETURNS trigger AS
 $$
