@@ -1,3 +1,4 @@
+--Видаляє з таблиці Happening стан колонії з id_state, яке вводить користувач
 DROP FUNCTION IF EXISTS del_id(integer); 
  
 CREATE OR REPLACE FUNCTION del_id(x integer) RETURNS void 
